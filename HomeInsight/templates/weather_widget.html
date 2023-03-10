@@ -1,0 +1,40 @@
+
+{% block content %}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title d-flex justify-content-between">{{profile.localitate}}   <span> {% now "H:i" %} </span></h5>
+
+        <div class="d-flex flex-column text-center ">
+            <h6 class="display-4" style="color:#012970;"> {{ weather.temperature}}°C </h6>
+            <span class="small" style="color: #868B94">{{weather.description}}</span>
+        </div>
+                
+        <div class="d-flex align-items-center">
+            <div class="flex-grow-1" style="font-size: 1rem;">
+              <div><i class="fas fa-wind fa-fw" style="color: #868B94;"></i> <span class="ms-1"> {{weather.wind}} m/s </span></div>
+              <div><i class="fas fa-tint fa-fw" style="color: #868B94;"></i> <span class="ms-1"> {{weather.humidity}} % </span></div>
+              <div><i class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1"> {{weather.pressure}} hPa </span></div>
+            </div>
+            <div>
+              <img src="http://openweathermap.org/img/wn/{{weather.icon}}@2x.png" >
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+ 
+   
+
+
+        
+
+
+{% endblock %}
+
+
+
+
+
