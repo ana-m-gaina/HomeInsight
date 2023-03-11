@@ -2,7 +2,7 @@
  
 Home Insight is a Django web application that allows users to track and manage their energy consumption and devices. The application provides users with a dashboard and multiple charts to visualize their energy consumption data.
 
-##Features
+## Features
  
 User authentication system with multiple profiles
 Device manager to add, track, and manage devices with index and CSV data
@@ -19,19 +19,19 @@ Matplotlib
 Bootstrap
 Installation
 
-##Clone the repository
+## Clone the repository
  
 Create and activate a virtual environment
 Install the required packages with pip install -r requirements.txt
 Run the application with python manage.py runserver
 
-##Usage
+## Usage
 Create an account with a unique username and password.
 Add a device to your account by providing its name, description, and energy consumption data.
 View your device data on the dashboard or generate charts with the available options.
 Use the device manager to add your devices as needed, deletion through interface is not yet integrated.
 
-##Credits
+## Credits
 This project was developed  using the following resources:
 
 Django documentation
@@ -40,5 +40,5 @@ Matplotlib documentation
 Bootstrap documentation
 JavaScript documentation 
 
-##License
+## License
 This project is licensed under the MIT License.
